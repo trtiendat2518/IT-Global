@@ -8,14 +8,15 @@
             <div class="row">
 
                 <!-- column 1 starts -->
-                <div class="col-12 col-md-4 small-device-space"> <img src="{{ asset('public/main/img/logo-light.png') }}" alt="logo">
+                <div class="col-12 col-md-4 small-device-space">
+                    <h3 class="color-red">IT-Global</h3>
                     <p class="dtr-mt-30">Công ty TNHH Giải pháp Công nghệ IT-Global<br>Mr.Tân: 0987613161</p>
 
                     <!-- social starts -->
                     <div class="dtr-social-large dtr-mt-30">
                         <ul class="dtr-social dtr-social-list text-left">
                             <li><a href="https://www.instagram.com/tancool_tn/" class="dtr-instagram" target="_blank" title="instagram"></a></li>
-                            <li><a href="#" class="dtr-skype" target="_blank" title="skype"></a></li>
+                            <li><a href="skype:dvminhtan?chat" class="dtr-skype" target="_blank" title="skype"></a></li>
                             <li><a href="mailto:info@it-global.net" class="dtr-google" target="_blank" title="google"></a></li>
                             <li><a href="https://www.facebook.com/dauphaithaygiao" class="dtr-facebook" target="_blank" title="facebook"></a></li>
                         </ul>
@@ -81,7 +82,7 @@
 
                 <!-- column 1 starts -->
                 <div class="col-12 text-center text-size-sm">
-                    <p> Copyright © 2022, <a href="https://trieudo.net">IT-Global Co,.Ltd</a>.</p>
+                    <p> Copyright © 2022, <a href="{{ url('/') }}>IT-Global Co,.Ltd</a>.</p>
                 </div>
                 <!-- column 1 ends -->
 

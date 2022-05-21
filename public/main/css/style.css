@@ -2374,12 +2374,12 @@ form label.error {
 .dtr-img-feature-circle::before {
     content: '';
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     position: absolute;
     left: -15px;
-    top: -6px;
+    top: -18px;
     z-index: 1;
     background-color: inherit;
 }
@@ -2487,12 +2487,12 @@ form label.error {
 .dtr-contact-widget li i::after {
     content: '';
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     position: absolute;
-    left: -15px;
-    top: -3px;
+    left: -8.5px;
+    top: -8px;
     z-index: 1;
     z-index: -1;
 }
