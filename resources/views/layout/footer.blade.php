@@ -14,10 +14,10 @@
                     <!-- social starts -->
                     <div class="dtr-social-large dtr-mt-30">
                         <ul class="dtr-social dtr-social-list text-left">
-                            <li><a href="#" class="dtr-instagram" target="_blank" title="instagram"></a></li>
+                            <li><a href="https://www.instagram.com/tancool_tn/" class="dtr-instagram" target="_blank" title="instagram"></a></li>
                             <li><a href="#" class="dtr-skype" target="_blank" title="skype"></a></li>
                             <li><a href="mailto:info@it-global.net" class="dtr-google" target="_blank" title="google"></a></li>
-                            <li><a href="mailto:info@it-global.net" class="dtr-facebook" target="_blank" title="facebook"></a></li>
+                            <li><a href="https://www.facebook.com/dauphaithaygiao" class="dtr-facebook" target="_blank" title="facebook"></a></li>
                         </ul>
                     </div>
                     <!-- social ends -->

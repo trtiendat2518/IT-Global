@@ -325,7 +325,7 @@ input[type='search']:focus {
 .dtr-form-dark-bg input[type='number'],
 .dtr-form-dark-bg input[type='tel'],
 .dtr-form-dark-bg input[type='search'] {
-    background-color: transparent;
+    background-color: #373737;
 }
 .dtr-form-dark-bg label,
 .dtr-form-dark-bg input,
@@ -349,10 +349,10 @@ input[type='search']:focus {
 .dtr-form-dark-bg input[type='number'],
 .dtr-form-dark-bg input[type='tel'],
 .dtr-form-dark-bg input[type='search'] {
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: #fff;
 }
 .dtr-form-dark-bg .dtr-form-subtext {
-    color: rgba(255, 255, 255, 0.6) !important;
+    color: #fff;
 }
 .dtr-form-dark-bg textarea:focus,
 .dtr-form-dark-bg input[type='text']:focus,

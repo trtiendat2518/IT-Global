@@ -72,7 +72,7 @@
                         class="dtr-author-img border-red">
                     <div class="dtr-author-content">
                         <h6 class="color-blue">Nguyễn Minh Tân</h6>
-                        <p class="color-dark">Co-founder, CEO</p>
+                        <p class="color-dark">Founder, CEO</p>
                     </div>
                 </div>
                 <!-- author box ends -->

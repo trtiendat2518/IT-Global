@@ -1,7 +1,9 @@
 <div class="dtr-responsive-header fixed-top" style="">
     <div class="container">
 
-        <a href="https://trieudo.net"><img src="{{ asset('public/main/img/logo-dark.png') }}" alt="logo"></a>
+        <a href="{{ url('/') }}">
+            <h3 class="color-red">IT-Global</h3>
+        </a>
 
         <button id="dtr-menu-button" class="dtr-hamburger" type="button"><span class="dtr-hamburger-lines-wrapper"><span
                     class="dtr-hamburger-lines"></span></span></button>
@@ -9,10 +11,10 @@
     <div class="dtr-responsive-header-menu">
         <div class="slicknav_menu">
             <ul class="slicknav_nav slicknav_hidden dtr-scrollspy" style="touch-action: pan-y; display: none;" aria-hidden="true" role="menu">
-                <li> <a class="nav-link" href="https://trieudo.net" role="menuitem" tabindex="-1">Trang chủ</a> </li>
-                <li> <a class="nav-link " href="https://trieudo.net/dich-vu" role="menuitem" tabindex="-1">Dịch vụ</a> </li>
-                <li> <a class="nav-link " href="https://trieudo.net/du-an" role="menuitem" tabindex="-1">Dự án thành công</a> </li>
-                <li> <a class="nav-link " href="https://trieudo.net/hoi-dap" role="menuitem" tabindex="-1">Hỏi đáp</a> </li>
+                <li> <a class="nav-link" href="{{ url('/') }}" role="menuitem" tabindex="-1">Trang chủ</a> </li>
+                <li> <a class="nav-link " href="{{ url('/ve-chung-toi') }}" role="menuitem" tabindex="-1">Về chúng tôi</a> </li>
+                <li> <a class="nav-link " href="{{ url('/du-an') }}" role="menuitem" tabindex="-1">Dự án thành công</a> </li>
+                <li> <a class="nav-link " href="{{ url('/hoi-dap') }}" role="menuitem" tabindex="-1">Hỏi đáp</a> </li>
             </ul>
         </div>
     </div>
@@ -24,10 +26,15 @@
 
             <div class="dtr-header-left">
 
-                <a class="logo-default dtr-scroll-link" href="https://trieudo.net"><img src="{{ asset('public/main/img/logo-light.png') }}"
-                        alt="logo"></a>
+                <a class="logo-default dtr-scroll-link" href="{{ url('/') }}">
+                    {{-- <img src="{{ asset('public/main/img/logo-light.png') }}" alt="logo"> --}}
+                    <h3 class="color-red">IT-Global</h3>
+                </a>
 
-                <a class="logo-alt dtr-scroll-link" href="https://trieudo.net"><img src="{{ asset('public/main/img/logo-dark.png') }}" alt="logo"></a>
+                <a class="logo-alt dtr-scroll-link" href="{{ url('/') }}">
+                    <h3 class="color-red">IT-Global</h3>
+                    {{-- <img src="{{ asset('public/main/img/logo-dark.png') }}" alt="logo"> --}}
+                </a>
             </div>
 
             <div class="dtr-header-right ml-auto">

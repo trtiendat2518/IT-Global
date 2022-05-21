@@ -27,6 +27,46 @@
 
                         <!-- form starts -->
                         <div class="dtr-form dtr-form-styled dtr-form-dark-bg">
+                            <form id="contactform" method="post" action="php/contact-form.php" novalidate="novalidate">
+                                <fieldset>
+
+                                    <!-- form two columns start -->
+                                    <div class="dtr-form-row dtr-form-row-2col clearfix">
+                                        <div class="dtr-form-column">
+                                            <p class="dtr-form-field"> <span class="dtr-form-subtext">Tên khách hàng</span>
+                                                <input name="name" type="text" placeholder="Họ &amp; tên">
+                                            </p>
+                                        </div>
+                                        <div class="dtr-form-column">
+                                            <p class="dtr-form-field"> <span class="dtr-form-subtext">Email</span>
+                                                <input name="email" class="required email" type="text" placeholder="email@example.com">
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- form two columns ends -->
+                                    <p class="dtr-form-field"> <span class="dtr-form-subtext">Nội dung</span>
+                                        <textarea rows="6" name="message" id="message" class="required"
+                                            placeholder="Thắc mắc, ý kiến hoặc đóng góp cho IT-Global..."></textarea>
+                                    </p>
+                                    <p class="text-center">
+                                        <button class="dtr-btn btn-red w-100" type="submit"> Gửi đến IT-Global <i
+                                                class="icon-arrow-right-circle dtr-ml-10"></i> </button>
+                                    </p>
+                                    <div id="result"></div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <!-- form ends -->
+
+                    </div>
+                    <!-- column 1 ends -->
+
+                    <!-- column 2 starts -->
+                    <div class="col-12 col-md-4">
+                        <div class="dtr-pl-50">
+                            <img src="{{ asset('public/main/img/contact.jpg') }}" alt="image" class="small-device-space"
+                                style="border-radius: 10px; margin-bottom: 30px">
+
                             <!-- contact box starts -->
                             <div class="dtr-contact-box"> <i class="icon-telegram-plane"></i>
                                 <div class="dtr-contact-box-content color-white"> <span class="dtr-contact-box-title color-white-muted">Email</span>
@@ -40,16 +80,6 @@
                                     +84 987.613.161</div>
                             </div>
                             <!-- contact box ends -->
-                        </div>
-                        <!-- form ends -->
-
-                    </div>
-                    <!-- column 1 ends -->
-
-                    <!-- column 2 starts -->
-                    <div class="col-12 col-md-4">
-                        <div class="dtr-pl-50">
-                            <img src="{{ asset('public/main/img/contact.jpg') }}" alt="image" class="small-device-space" style="border-radius: 10px">
                         </div>
                     </div>
                     <!-- column 2 ends -->
