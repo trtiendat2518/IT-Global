@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="153" viewBox="0 0 1920 153">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke: #ff5858;
+      }
+
+      .cls-3 {
+        stroke: #ff5858;
+      }
+    </style>
+  </defs>
+  <path id="Shape" class="cls-1" d="M0,218H1920V31S1440.17,151,960,151C480.167,151,0,31,0,31V218Z"/>
+  <path id="Curve_Line_1" data-name="Curve Line 1" class="cls-2" d="M0,81s379.833,50,860,50c479.83,0,1060-100,1060-100"/>
+  <path id="Curve_Line_2" data-name="Curve Line 2" class="cls-3" d="M0,1S479.833,151,960,151c479.83,0,960-70,960-70"/>
+</svg>
