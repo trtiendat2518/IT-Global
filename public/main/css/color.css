@@ -61,6 +61,10 @@ a:hover {
 .bg-light-red {
     background-color: #ffcdcd !important;
 }
+
+.bg-light-grey {
+    background-color: #dee2e6 !important;
+}
 /*----------------------------------------*/
 /*----- Overlays -----*/
 /*----------------------------------------*/

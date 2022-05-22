@@ -5315,68 +5315,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -29046,117 +28984,59 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c(
-      "section",
-      {
-        staticClass:
-          "dtr-section dtr-section-with-bg dtr-hero-section-top-padding bg-grey-custom",
-        staticStyle: {
-          "background-image": "url(public/main/img/white-shape-bg.png)",
-        },
-      },
-      [
-        _c(
-          "div",
-          {
-            staticClass: "dtr-bottom-shape-img",
-            staticStyle: {
-              "background-image": "url(public/main/img/hero-bottom.svg)",
-            },
-          },
-          [
-            _c("div", { staticClass: "container" }, [
-              _c(
-                "div",
-                { staticClass: "row d-flex align-items-center dtr-pb-100" },
-                [
-                  _vm._m(0),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "col-12 col-md-6 small-device-space" },
-                    [
-                      _c(
-                        "VueSlickCarousel",
-                        {
-                          attrs: {
-                            arrows: true,
-                            autoplay: true,
-                            speed: 3000,
-                            autoplaySpeed: 2000,
-                            infinite: true,
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                          },
-                        },
-                        [
-                          _c("div", { staticClass: "slick-slide" }, [
-                            _c("img", {
-                              staticClass: "banner-img",
-                              attrs: {
-                                src: "public/main/img/blogpost-img1.jpg",
-                                alt: "image",
-                              },
-                            }),
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "slick-slide" }, [
-                            _c("img", {
-                              staticClass: "banner-img",
-                              attrs: {
-                                src: "public/main/img/blogpost-img2.jpg",
-                                alt: "image",
-                              },
-                            }),
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "slick-slide slick-current slick-active",
-                            },
-                            [
-                              _c("img", {
-                                staticClass: "banner-img",
-                                attrs: {
-                                  src: "public/main/img/blogpost-img3.jpg",
-                                  alt: "image",
-                                },
-                              }),
-                            ]
-                          ),
-                        ]
-                      ),
-                    ],
-                    1
-                  ),
-                ]
-              ),
-            ]),
-          ]
-        ),
-      ]
-    ),
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-12 col-md-6" }, [
-      _c("h1", { staticClass: "color-white" }, [
-        _vm._v("Thiết kế - Lập trình Webiste & Ứng dụng di động"),
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "color-white-muted" }, [
-        _c("strong", [_vm._v("IT-Global")]),
-        _vm._v(
-          " cung cấp các giải pháp Ứng dụng webiste và Ứng dụng di động trên nhiều nền tảng\n                            công nghệ, ngôn ngữ lập trình và thân thiện với nhiều thiết bị.\n                        "
-        ),
-      ]),
+    return _c("div", [
+      _c(
+        "section",
+        {
+          staticClass:
+            "dtr-section dtr-section-with-bg dtr-hero-section-top-padding bg-grey-custom",
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "dtr-bottom-shape-img",
+              staticStyle: {
+                "background-image": "url(public/main/img/test.svg)",
+              },
+            },
+            [
+              _c("div", { staticClass: "container" }, [
+                _c(
+                  "div",
+                  { staticClass: "row d-flex align-items-center dtr-pb-100" },
+                  [
+                    _c("div", { staticClass: "col-md-12" }, [
+                      _c("h1", { staticClass: "color-white" }, [
+                        _vm._v(
+                          "Xây dựng - Thiết kế - Lập trình Webiste & Ứng dụng di động"
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "text-white" }, [
+                        _vm._v(
+                          "\n                            Điều đặc biệt nhất khi thiết kế website ở "
+                        ),
+                        _c("strong", [_vm._v("IT-Global")]),
+                        _vm._v(
+                          " là bạn không cần phải lo lắng về trình\n                            độ kỹ thuật, thẩm mỹ thiết kế hay hậu mãi, bảo trì, bảo hành, bảo mật… Tất cả những gì bạn cần chuẩn bị một\n                            ý tưởng rõ ràng để cùng chúng tôi trao đổi tư vấn cho bạn..\n                        "
+                        ),
+                      ]),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]
+          ),
+        ]
+      ),
     ])
   },
 ]
