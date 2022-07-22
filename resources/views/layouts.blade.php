@@ -13,8 +13,8 @@
     <meta name="keywords" content="website, mobile app, technology, design">
 
     <link rel="canonical" href="{{$url_canonical}}">
-    <link rel="icon" href="{{ asset('public/main/img/favicon.png') }}">
-    <link href="{{ asset('public/main/img/favicon.png') }}" rel="shortcut icon">
+    <link rel="icon" href="{{ asset('public/main/img/icon.jpg') }}">
+    <link href="{{ asset('public/main/img/icon.jpg') }}" rel="shortcut icon">
     <link rel="stylesheet" href="{{ asset('public/main/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('public/main/css/iconfonts.css') }}">
     <link rel="stylesheet" href="{{ asset('public/main/css/plugins.css') }}">

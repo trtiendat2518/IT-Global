@@ -5552,12 +5552,71 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     VueSlickCarousel: (vue_slick_carousel__WEBPACK_IMPORTED_MODULE_0___default())
+  },
+  data: function data() {
+    return {
+      responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      }, {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      }, {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      }, {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }]
+    };
   }
 });
 
@@ -10776,7 +10835,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.card[data-v-4ad3dc85] {\n    padding: 10px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.card[data-v-4ad3dc85] {\n    padding: 5px;\n    height: auto;\n}\n.box-card[data-v-4ad3dc85] {\n    padding-left: 10px;\n    padding-right: 10px;\n}\n.card-img-top[data-v-4ad3dc85] {\n    height: 100px;\n}\n.card-body[data-v-4ad3dc85] {\n    height: 300px;\n}\n.card-footer[data-v-4ad3dc85] {\n    background-color: #fff;\n    border-top: none;\n}\n.img-top[data-v-4ad3dc85] {\n    display: block;\n    margin-top: 50px;\n    width: 100%;\n}\n@media only screen and (min-width: 300px) {\n.card-img-top[data-v-4ad3dc85] {\n        height: 120px;\n}\n.card-body[data-v-4ad3dc85] {\n        margin-top: 20px;\n        height: 250px;\n}\n.card-footer[data-v-4ad3dc85] {\n        background-color: #fff;\n        border-top: none;\n}\n.img-top[data-v-4ad3dc85] {\n        display: block;\n        margin-top: 60px;\n}\n}\n@media only screen and (min-width: 400px) {\n.card-img-top[data-v-4ad3dc85] {\n        height: 100px;\n}\n.card-body[data-v-4ad3dc85] {\n        margin-top: 0px;\n        height: 300px;\n}\n.card-footer[data-v-4ad3dc85] {\n        background-color: #fff;\n        border-top: none;\n}\n.img-top[data-v-4ad3dc85] {\n        display: block;\n        margin-top: 50px;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -29558,41 +29617,89 @@ var render = function () {
               infinite: true,
               slidesToShow: 4,
               slidesToScroll: 1,
+              responsive: _vm.responsive,
             },
           },
           [
-            _c("div", { staticClass: "card" }, [
-              _c("img", {
-                staticClass: "card-img-top",
-                attrs: {
-                  src: "https://thuexemiennam.com/public/admin/images/logo/logo.png",
-                  alt: "Card image cap",
-                },
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-body" }, [
-                _c("h5", { staticClass: "card-title" }, [
-                  _vm._v("Thuê xe miền nam"),
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "card-text" }, [
-                  _vm._v(
-                    "\n                        Thuexemiennam là đơn vị tiên phong cung cấp các dịch vụ thuê xe mang lại trải nghiệm tốt nhất cho khách hàng khi\n                        ngồi trên xe.\n                    "
-                  ),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "text-center" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-primary",
-                      attrs: {
-                        href: "https://thuexemiennam.com/",
-                        target: "_blank",
-                      },
+            _c("div", { staticClass: "box-cards" }, [
+              _c("div", { staticClass: "card" }, [
+                _c("div", { staticClass: "card-img-top" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "https://thuexemiennam.com/public/admin/images/logo/logo.png",
+                      alt: "Card image cap",
                     },
-                    [_vm._v("Xem chi tiết →")]
-                  ),
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-body" }, [
+                  _c("h5", { staticClass: "card-title" }, [
+                    _vm._v("Thuê xe miền nam"),
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "card-text" }, [
+                    _vm._v(
+                      "\n                            Thuexemiennam là đơn vị tiên phong cung cấp các dịch vụ thuê xe mang lại trải nghiệm tốt nhất cho khách hàng\n                            khi ngồi trên xe.\n                        "
+                    ),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-footer" }, [
+                  _c("div", { staticClass: "text-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "btn btn-primary",
+                        attrs: {
+                          href: "https://cameraphuongnghi.com/",
+                          target: "_blank",
+                        },
+                      },
+                      [_vm._v("Xem chi tiết →")]
+                    ),
+                  ]),
+                ]),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "box-card" }, [
+              _c("div", { staticClass: "card" }, [
+                _c("div", { staticClass: "card-img-top" }, [
+                  _c("img", {
+                    staticClass: "img-top",
+                    attrs: {
+                      src: "https://cameraphuongnghi.com/public/images/logo.jpg",
+                      alt: "Card image cap",
+                    },
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-body" }, [
+                  _c("h5", { staticClass: "card-title" }, [
+                    _vm._v("Camera Phương Nghi"),
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "card-text" }, [
+                    _vm._v(
+                      "\n                            Các sản phẩm và giải pháp của Camera Phuowng Nghi thì việc giám sát của quý khách giờ đây sẽ không chỉ dừng\n                            lại ở giám sát nội bộ, giám sát trong phạm vi hẹp mà còn có thể giám sát từ xa.\n                        "
+                    ),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-footer" }, [
+                  _c("div", { staticClass: "text-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "btn btn-primary",
+                        attrs: {
+                          href: "https://cameraphuongnghi.com/",
+                          target: "_blank",
+                        },
+                      },
+                      [_vm._v("Xem chi tiết →")]
+                    ),
+                  ]),
                 ]),
               ]),
             ]),
